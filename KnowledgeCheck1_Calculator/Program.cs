@@ -57,7 +57,7 @@ namespace KnowledgeCheck1_Calculator
 
                     if (int.TryParse(multiplyNumber1, out int multiplyNumOne) && int.TryParse(multiplyNumber2, out int multiplyNumTwo))
                     {
-                        Console.Write($"{multiplyNumber1} - {multiplyNumber2} = ");
+                        Console.Write($"{multiplyNumber1} * {multiplyNumber2} = ");
                         Console.Write(calculator.Multiply(multiplyNumOne, multiplyNumTwo));
                     }
                     else
